@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Ship">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <Members>
+      <Field Name="moveState" Hidden="true" />
+      <Field Name="pSnd" Hidden="true" />
+      <Method Name="SetMoveState" Hidden="true" />
+      <Method Name="SetState" Hidden="true" />
+      <Method Name="Ship" Hidden="true" />
+      <Field Name="shipSpeed" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+      <Method Name="VisitBomb" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIQAhAAAAAAAAAAAhAAAAAgAAAAAAIgMQAAAAAAEAAA=</HashCode>
+      <FileName>GameObject\Ship\Ship.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="state" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ShipState">
+    <Position X="6.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIIQAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Ship\ShipState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipCategory" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Ship\ShipCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipStateEnd">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIIQAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Ship\ShipStateEnd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipStateMissileFlying">
+    <Position X="2.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIIQAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Ship\ShipStateMissleFlying.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipStateMoveBoth">
+    <Position X="4.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIIQAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Ship\ShipStateMoveBoth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipStateMoveLeft">
+    <Position X="6.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIIQAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Ship\ShipStateMoveLeft.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipStateMoveRight">
+    <Position X="9" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIIQAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Ship\ShipStateMoveRight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipStateReady">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIIQAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Ship\ShipStateReady.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

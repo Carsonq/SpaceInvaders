@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.GlyphMan">
+    <Position X="1.75" Y="2" Width="1.5" />
+    <Members>
+      <Method Name="~GlyphMan" Hidden="true" />
+      <Method Name="DerivedCompare" Hidden="true" />
+      <Method Name="DerivedCreateNode" Hidden="true" />
+      <Method Name="DerivedDumpNode" Hidden="true" />
+      <Method Name="DerivedWash" Hidden="true" />
+      <Method Name="Destroy" Hidden="true" />
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="GlyphMan" Hidden="true" />
+      <Field Name="pInstance" Hidden="true" />
+      <Method Name="PrivGetInstance" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAIIAAAAAAAAAAEAABAApQAAAABIAEAAAAASAAgAAAA=</HashCode>
+      <FileName>Font\GlyphMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pRefNode" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Manager" Collapsed="true">
+    <Position X="1.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAAIECAFAAAHAIhAABBAogIAAAAAAgAggAAQAEAQAAA=</HashCode>
+      <FileName>Manager\Manager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.DLink" Collapsed="true">
+    <Position X="4.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAACMAAAAAAAAAAACBBEAg=</HashCode>
+      <FileName>Manager\DLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Glyph">
+    <Position X="4.5" Y="2" Width="1.5" />
+    <Members>
+      <Method Name="~Glyph" Hidden="true" />
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="GetAzulSubRect" Hidden="true" />
+      <Method Name="GetAzulTexture" Hidden="true" />
+      <Method Name="Glyph" Hidden="true" />
+      <Field Name="key" Hidden="true" />
+      <Field Name="name" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Glyph.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Font\Glyph.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACBAACAAAEgAEAAAAEQAAAAAAAABAAAAA=</HashCode>
+      <FileName>Font\Glyph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Font" HideInheritanceLine="true">
+    <Position X="1.75" Y="4.25" Width="1.5" />
+    <Members>
+      <Method Name="~Font" Hidden="true" />
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="Font" Hidden="true" />
+      <Method Name="GetMessage" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+      <Method Name="UpdateMessage" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Font.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Font\Font.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AiAAAAAAAAAABAAAAAAAgAgAAAAMQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Font\Font.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pFontSprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.FontSprite">
+    <Position X="4.25" Y="4.25" Width="1.5" />
+    <Members>
+      <Method Name="~FontSprite" Hidden="true" />
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="FontSprite" Hidden="true" />
+      <Method Name="GetGlyphName" Hidden="true" />
+      <Method Name="GetMessage" Hidden="true" />
+      <Field Name="name" Hidden="true" />
+      <Field Name="pAzulSprite" Hidden="true" />
+      <Field Name="pColor" Hidden="true" />
+      <Field Name="pMessage" Hidden="true" />
+      <Field Name="pScreenRect" Hidden="true" />
+      <Method Name="Render" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+      <Method Name="SetColor" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+      <Field Name="x" Hidden="true" />
+      <Field Name="y" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ACYAAAIAAAAABAAAQAAIgAAAAAAMAAIAABhgAAAAAIA=</HashCode>
+      <FileName>Sprite\FontSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

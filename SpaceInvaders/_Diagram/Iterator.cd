@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Iterator">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAABCAAAAAAAQAAAAIAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Composite\Iterator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ForwardIterator">
+    <Position X="2.5" Y="3.5" Width="1.5" />
+    <Members>
+      <Method Name="PrivNextStep" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AgIAACAAAAAAAQAAAAIAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composite\ForwardIterator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ReverseIterator">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAAAQAAAAIAAAAAAIAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composite\ReverseIterator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pRoot" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Component">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <Members>
+      <Method Name="Add" Hidden="true" />
+      <Method Name="Component" Hidden="true" />
+      <Method Name="DumpNode" Hidden="true" />
+      <Method Name="GetFirstChild" Hidden="true" />
+      <Field Name="holder" Hidden="true" />
+      <Method Name="Move" Hidden="true" />
+      <Field Name="pParent" Hidden="true" />
+      <Field Name="pReverse" Hidden="true" />
+      <Method Name="Print" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Component.Container" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Composite\Component.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIAgAAAAIAIAAAgAAAABAAAAAAAAAAAEAAQAAAEAAA=</HashCode>
+      <FileName>Composite\Component.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
